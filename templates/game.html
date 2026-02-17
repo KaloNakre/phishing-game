@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/static/css/style.css">
+<script src="/static/js/game.js"></script>
+<script src="/static/js/matrix.js"></script>
+</head>
+
+<body>
+
+<canvas id="matrix"></canvas>
+
+<div class="panel">
+<h3>Question <span id="q">{{q}}</span>/10</h3>
+<h2 id="url">{{url}}</h2>
+
+<button onclick="sendAnswer(1)">PHISHING</button>
+<button onclick="sendAnswer(0)">SAFE</button>
+</div>
+
+<script>
+const player="{{player}}"
+</script>
+
+</body>
+</html>
