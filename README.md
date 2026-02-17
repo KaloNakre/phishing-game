@@ -20,23 +20,23 @@ Players enter their name, face 10 phishing/safe URL challenges, and get a **scor
 
 phishing-game/
 │
-├── app.py # Flask backend
-├── game_engine.py # Game logic
-├── requirements.txt # Python dependencies
-├── .gitignore # Ignore unnecessary files
+├── app.py                     # Flask backend
+├── game_engine.py             # Game logic
+├── requirements.txt           # Python dependencies
+├── .gitignore                 # Ignore unnecessary files
 │
-├── dataset/ # CSV dataset 
-│ └── phishing_dataset.csv
+├── dataset/                   # CSV dataset
+│   └── phishing_dataset.csv
 │
-├── templates/ # HTML templates
-│ ├── index.html
-│ ├── loading.html
-│ ├── game.html
-│ └── result.html
+├── templates/                 # HTML templates
+│   ├── index.html
+│   ├── loading.html
+│   ├── game.html
+│   └── result.html
 │
-└── static/ # CSS and JS
-├── css/
-│ └── style.css
-└── js/
-├── game.js
-└── matrix.js
+└── static/                    # CSS and JS
+    ├── css/
+    │   └── style.css
+    └── js/
+        ├── game.js
+        └── matrix.js
